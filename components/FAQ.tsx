@@ -65,7 +65,7 @@ function FAQItem({ q, a }: { q: string; a: string }) {
         <span className='text-sm font-medium text-foreground group-hover:text-foreground/80 transition-colors'>
           {q}
         </span>
-        <div className='flex-shrink-0 w-6 h-6 rounded-full border border-border flex items-center justify-center'>
+        <div className='shrink-0 w-6 h-6 rounded-full border border-border flex items-center justify-center'>
           {open ? (
             <Minus size={12} className='text-muted-foreground' />
           ) : (

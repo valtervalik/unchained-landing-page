@@ -89,7 +89,7 @@ export default function Hero() {
       {/* Orbs */}
       <div
         ref={orb1Ref}
-        className='absolute top-1/4 right-1/4 w-[500px] h-[500px] rounded-full pointer-events-none'
+        className='absolute top-1/4 right-1/4 w-125 h-125 rounded-full pointer-events-none'
         style={{
           background:
             'radial-gradient(circle, rgba(160,160,176,0.07) 0%, transparent 70%)',
@@ -97,7 +97,7 @@ export default function Hero() {
       />
       <div
         ref={orb2Ref}
-        className='absolute bottom-1/4 left-1/4 w-[400px] h-[400px] rounded-full pointer-events-none'
+        className='absolute bottom-1/4 left-1/4 w-100 h-100 rounded-full pointer-events-none'
         style={{
           background:
             'radial-gradient(circle, rgba(100,100,120,0.06) 0%, transparent 70%)',

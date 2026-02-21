@@ -7,10 +7,12 @@ import Services from '@/components/Services';
 import FAQ from '@/components/FAQ';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
+import GrowthArrow from '@/components/GrowthArrow';
 
 export default function Home() {
   return (
-    <main className='min-h-screen'>
+    <main className='min-h-screen relative'>
+      <GrowthArrow />
       <Navbar />
       <Hero />
       <PainPoints />

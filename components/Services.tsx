@@ -139,7 +139,7 @@ export default function Services() {
                   <li key={f} className='flex items-start gap-2.5 text-sm'>
                     <CheckCircle2
                       size={15}
-                      className={`mt-0.5 flex-shrink-0 ${s.featured ? 'text-background/60' : 'text-muted-foreground'}`}
+                      className={`mt-0.5 shrink-0 ${s.featured ? 'text-background/60' : 'text-muted-foreground'}`}
                     />
                     <span
                       className={

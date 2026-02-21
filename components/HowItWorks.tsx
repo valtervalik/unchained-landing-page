@@ -88,10 +88,10 @@ export default function HowItWorks() {
         {/* Steps */}
         <div className='relative'>
           {/* Connecting Line */}
-          <div className='hidden md:block absolute left-[39px] top-16 bottom-16 w-px overflow-hidden'>
+          <div className='hidden md:block absolute left-9.75 top-16 bottom-16 w-px overflow-hidden'>
             <div
               ref={lineRef}
-              className='w-full h-full bg-gradient-to-b from-foreground/20 via-foreground/10 to-transparent'
+              className='w-full h-full bg-linear-to-b from-foreground/20 via-foreground/10 to-transparent'
             />
           </div>
 
@@ -104,7 +104,7 @@ export default function HowItWorks() {
                   className='step-card flex flex-col md:flex-row items-start gap-6 group'
                 >
                   {/* Icon circle */}
-                  <div className='relative flex-shrink-0'>
+                  <div className='relative shrink-0'>
                     <div className='w-20 h-20 rounded-2xl bg-secondary glow-border flex items-center justify-center group-hover:bg-accent transition-all duration-300'>
                       <Icon
                         size={26}
