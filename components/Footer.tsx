@@ -1,4 +1,5 @@
 import { Twitter, Linkedin, Instagram } from 'lucide-react';
+import Image from 'next/image';
 
 const footerLinks = [
   {
@@ -28,7 +29,12 @@ export default function Footer() {
           <div className='flex flex-col gap-4 md:col-span-2'>
             <a href='#' className='flex items-center gap-2'>
               <div className='w-7 h-7 rounded-md bg-foreground flex items-center justify-center'>
-                <div className='w-3 h-3 rounded-sm bg-background' />
+                <Image
+                  src='/unchained_logo.png'
+                  alt='Logo'
+                  width={24}
+                  height={24}
+                />
               </div>
               <span className='font-bold text-sm tracking-tight text-foreground'>
                 UNCHAINED BUSINESS
