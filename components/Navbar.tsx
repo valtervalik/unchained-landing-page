@@ -5,8 +5,6 @@ import { gsap } from 'gsap';
 import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
 
-import logo from '@/public/unchained_logo.png';
-
 const navLinks = [
   { label: 'How It Works', href: '#how-it-works' },
   { label: 'Results', href: '#results' },
@@ -44,7 +42,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href='#' className='flex items-center gap-2 group'>
           <div className='w-7 h-7 rounded-md bg-foreground flex items-center justify-center'>
-            <Image src={logo} alt='Logo' width={24} height={24} />
+            <Image src='/favicon.svg' alt='Logo' width={24} height={24} />
           </div>
           <span className='font-bold text-sm tracking-tight text-foreground'>
             UNCHAINED BUSINESS

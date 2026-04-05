@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  basePath: '/unchained-landing-page',
+  basePath: process.env.NODE_ENV === 'production' ? '/unchained-landing-page' : '',
   output: 'export',
   images: {
     unoptimized: true,
