@@ -29,7 +29,7 @@ export default function Footer() {
           <div className='flex flex-col gap-4 md:col-span-2'>
             <a href='#' className='flex items-center gap-2'>
               <div className='w-7 h-7 rounded-md bg-foreground flex items-center justify-center'>
-                <Image src='/favicon.svg' alt='Logo' width={24} height={24} />
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.svg`} alt='Logo' width={24} height={24} />
               </div>
               <span className='font-bold text-sm tracking-tight text-foreground'>
                 UNCHAINED BUSINESS
